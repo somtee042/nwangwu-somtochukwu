@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(./bg-gradient.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    float: right;
+    margin: 20px 50px 0 0;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+main {
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-times {
+    color: (240, 248, 255, 0.753);
+}
+
+.logo-wrapper {
+    width: 40px;
+}
+
+.logo {
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px 0 0 20px;
+}
+
+.aside-img {
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.social-icons {
+    width: 180px;
+    display: flex;
+    border: 1px solid rgb(130, 132, 130);
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Avenir', serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.social-icons:hover {
+    background-color: rgba(245, 111, 8, 0.872);
+    color: aliceblue;
+}
+
+.social-login {
+    background-color: white;
+    padding: 25px;
+    width: 484px;
+    height: 387px;
+}
+
+.image-wrapper {
+    width: 600px;
+    height: 368px;
+}
+
+.login-title {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.description {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.fa-brands, .fa-solid {
+    font-size: 12px;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-twitter {
+    color: rgb(0, 119, 255);
+}
